@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    background:  red;
+    
+}
+body:hover{
+    background: #000;
+}
+.container{
+    width: 400px;
+    height: 400px;
+    background:white;
+    position: relative;
+    margin: 250px auto;
+    transition: all 0.5s ease-in;
+}
+.container:hover{
+    background: blue;
+}
+.container h1{
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: center;
+    top: 50%;
+    position: relative;
+    transform: translateY(-50%);
+    transition: all 0.5s ease-in;
+
+}
+.container h1:hover{
+    color:  yellow;
+}
